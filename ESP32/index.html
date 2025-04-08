@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Led and FAN using ESP32</title>
+    <link rel="shortcut icon" href="image.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ESP32 LED and FAN Control</h1>
+        <div class="led_container">
+            <h3>LED Brightness</h3>
+            <input type="range" id="ledslider" min="0" max="255" value="0" oninput="updateSlider(this,'ledrangeValue')">
+            <p>LED Brightness:
+                <span id="ledrangeValue">0</span>
+            </p>
+        </div>
+        <div class="fan_container">
+            <h3>Fan Speed</h3>
+            <input type="range" id="fanslider" min="0" max="255" value="0" oninput="updateSlider(this,'fanrangeValue')">
+            <p>FAN Speed:
+                <span id="fanrangeValue">0</span>
+            </p>
+        </div>
+        <div class="led_container">
+            <h3>LED Brightness</h3>
+            <input type="range" id="ledslider" min="0" max="255" value="0" oninput="updateSlider(this,'ledrangeValue')">
+            <p>LED Brightness:
+                <span id="ledrangeValue">0</span>
+            </p>
+        </div>
+        <div class="led_container">
+            <h3>LED Brightness</h3>
+            <input type="range" id="ledslider" min="0" max="255" value="0" oninput="updateSlider(this,'ledrangeValue')">
+            <p>LED Brightness:
+                <span id="ledrangeValue">0</span>
+            </p>
+        </div>
+        <div class="led_container">
+            <h3>LED Brightness</h3>
+            <input type="range" id="ledslider" min="0" max="255" value="0" oninput="updateSlider(this,'ledrangeValue')">
+            <p>LED Brightness:
+                <span id="ledrangeValue">0</span>
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
